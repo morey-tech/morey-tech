@@ -1,16 +1,20 @@
-### Hi there 👋
+## Hey, I'm Nicholas Morey 🐕‍🦺
 
-<!--
-**morey-tech/morey-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Quick run-down of my professional experience:
 
-Here are some ideas to get you started:
+- 2021-08 - Present: DevOps Engineer @ [ratehub.ca]([url](https://www.ratehub.ca/)).
+- 2020-07 - 2021-08: Linux SysAdmin crossed with a DevOps Engineer @ [Empire Life Ins. Co](https://www.empire.ca/)
+- 2019-02 - 2020-07: Linux SysAdmin @ [Telecom Metric Inc.](https://telecommetric.com/)
+- Pre 2019: Misc Technical Support/Service Desk roles.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### I love working with:
+- Kubernetes
+- Terraform
+- Ansible
+- Github Actions
+- Argo CD
+- GCP
+
+### In my spare time I:
+- 🐕‍🦺 Train with my dog Argo.
+- Hoard data in my Homelab.
