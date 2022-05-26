@@ -17,4 +17,5 @@
 
 ### In my spare time I:
 - 🐕‍🦺 Train with my dog Argo.
-- Hoard data in my Homelab.
+- 💾 Hoard data in my Homelab.
+- 🥾 Hike.
