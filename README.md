@@ -16,6 +16,6 @@
 - GCP
 
 ### In my spare time I:
-- 🐕‍🦺 Train with my dog Argo.
+- 🐕‍🦺 Train with my dog [@argo.morey.k9](https://www.instagram.com/argo.morey.k9/).
 - 💾 Hoard data in my Homelab.
 - 🥾 Hike.
