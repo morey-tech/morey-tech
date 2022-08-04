@@ -10,6 +10,10 @@ I, with the support from my team, am going to bring it up to date with a focus o
 - [ci(checks): add jest coverage comment to prs #33](https://github.com/ratehub/argocd-diff-action/pull/33)
 
 Check out [my PRs on the action](https://github.com/ratehub/argocd-diff-action/pulls?q=is%3Apr+author%3Amorey-tech+) for a sense of how I like to collaborate!
+
+### Recent Blog Posts
+- [Automated Releases and Docker Builds](https://ratehub.github.io/engineering-blog/2022/06/19/rate-scrapers-workflows.html)
+
 ### Quick run-down of my professional experience:
 
 - 2021-08 - Present: DevOps Engineer @ [ratehub.ca](https://www.ratehub.ca/)
