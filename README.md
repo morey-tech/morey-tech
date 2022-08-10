@@ -14,6 +14,9 @@ Check out [my PRs on the action](https://github.com/ratehub/argocd-diff-action/p
 ### Recent Blog Posts
 - [Automated Releases and Docker Builds](https://ratehub.github.io/engineering-blog/2022/06/19/rate-scrapers-workflows.html)
 
+### Certifications
+[![cka-certified-kubernetes-administrator](https://user-images.githubusercontent.com/4213435/183928214-d775ab88-2034-47b5-beba-2ec083462629.png)](https://www.credly.com/badges/c873f78e-5c00-490a-89c4-064fd39378cf/public_url)
+
 ### Quick run-down of my professional experience:
 
 - 2021-08 - Present: DevOps Engineer @ [ratehub.ca](https://www.ratehub.ca/)
