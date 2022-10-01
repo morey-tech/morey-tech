@@ -1,6 +1,6 @@
 # Hey, I'm Nicholas Morey.
 
-### Find my on Twitter [@morey_tech](https://twitter.com/morey_tech)!
+### Find me on Twitter [@morey_tech](https://twitter.com/morey_tech)!
 
 ## Recent Blog Posts
 - [Automated Releases and Docker Builds](https://ratehub.github.io/engineering-blog/2022/06/19/rate-scrapers-workflows.html)
