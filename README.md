@@ -2,10 +2,11 @@
 
 ### Find me on Twitter [@morey_tech](https://twitter.com/morey_tech)!
 
-## Recent Blog Posts
-- [Automated Releases and Docker Builds](https://ratehub.github.io/engineering-blog/2022/06/19/rate-scrapers-workflows.html)
+## Recent Blog Posts and more!
+- [Automated Releases and Docker Builds - Blog Post](https://ratehub.github.io/engineering-blog/2022/06/19/rate-scrapers-workflows.html)
+- [Creating a fully-managed Kubernetes GitOps platform with Argo CD - Hands-on Lab](https://github.com/morey-tech/managed-argocd-lab-template)
 
-## Check out [the Ratehub `argocd-diff-action`](https://github.com/ratehub/argocd-diff-action)!
+## Check out [the `argocd-diff-action`](https://github.com/ratehub/argocd-diff-action)
 
 I am taking on a fork of an existing action that was abandoned ([quizlet/argocd-diff-action](https://github.com/quizlet/argocd-diff-action)). This action can improve feedback to developers working in a GitOps repo integrated with ArgoCD. Unfortunately it was missing some key features (e.g., [the ability to exclude paths](https://github.com/ratehub/argocd-diff-action/pull/1), support for [diffing Apps of Apps](https://github.com/argoproj/argo-cd/issues/4706)) and has some long standing bugs (https://github.com/quizlet/argocd-diff-action/issues/8).
 
