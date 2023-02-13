@@ -3,6 +3,9 @@
 ### Find me on Twitter [@morey_tech](https://twitter.com/morey_tech)!
 
 ## Recent Blog Posts and more!
+- [Enforcing Kubernetes Best Practices using Kyverno and Argo CD](https://akuity.io/blog/argo-cd-kyverno-best-practice-policies)
+- [Sustainable GitOps with Argo CD and kube-green](https://akuity.io/blog/argo-cd-kube-green/)
+- [Argo CD Build Environment Examples](https://akuity.io/blog/argo-cd-build-environment-examples/)
 - [How many do you need? - Argo CD Architectures Explained](https://akuity.io/blog/argo-cd-architectures-explained/)
 - [Creating a fully-managed Kubernetes GitOps platform with Argo CD - Hands-on Lab](https://github.com/morey-tech/managed-argocd-lab-template)
 - [Automated Releases and Docker Builds - Blog Post](https://ratehub.github.io/engineering-blog/2022/06/19/rate-scrapers-workflows.html)
