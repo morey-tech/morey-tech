@@ -10,11 +10,16 @@
 - [Creating a fully-managed Kubernetes GitOps platform with Argo CD - Hands-on Lab](https://github.com/morey-tech/managed-argocd-lab-template)
 - [Automated Releases and Docker Builds - Blog Post](https://ratehub.github.io/engineering-blog/2022/06/19/rate-scrapers-workflows.html)
 
-## Check out [the `argocd-diff-action`](https://github.com/ratehub/argocd-diff-action)
+## Argo CD SIG Scalability
+- [docs: add scalability benchmarking proposal #12662](https://github.com/argoproj/argo-cd/pull/12662)
 
-I am taking on a fork of an existing action that was abandoned ([quizlet/argocd-diff-action](https://github.com/quizlet/argocd-diff-action)). This action can improve feedback to developers working in a GitOps repo integrated with ArgoCD. Unfortunately it was missing some key features (e.g., [the ability to exclude paths](https://github.com/ratehub/argocd-diff-action/pull/1), support for [diffing Apps of Apps](https://github.com/argoproj/argo-cd/issues/4706)) and has some long standing bugs (https://github.com/quizlet/argocd-diff-action/issues/8).
+## Check out [the `argocd-diff-action`](https://github.com/argocd-diff-action/argocd-diff-action)
 
-I, with the support from my team, am going to bring it up to date with a focus on using CI to keep the feedback cycles short and encourage single piece flow. The CI for the action has already come along way, with improvements such as:
+The `argocd-diff-action` improves feedback on pull requests in GitOps repos integrated with ArgoCD.
+
+A fork of an existing action that was abandoned ([quizlet/argocd-diff-action](https://github.com/quizlet/argocd-diff-action)). Unfortunately, it was missing some key features (e.g., [the ability to exclude paths](https://github.com/ratehub/argocd-diff-action/pull/1), support for [diffing Apps of Apps](https://github.com/argoproj/argo-cd/issues/4706)) and has some long standing bugs (https://github.com/quizlet/argocd-diff-action/issues/8).
+
+I am working to bring it up to date with a focus on using CI to keep the feedback cycles short and encourage single piece flow. The CI for the action has already come along way, with improvements such as:
 - [ci: auto-merge Dependabot minor version updates #13](https://github.com/ratehub/argocd-diff-action/pull/13)
 - [ci(release): add semantic-release workflow #4](https://github.com/ratehub/argocd-diff-action/pull/4)
 - [ci(checks): add jest coverage comment to prs #33](https://github.com/ratehub/argocd-diff-action/pull/33)
