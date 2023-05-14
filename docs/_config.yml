@@ -7,6 +7,7 @@ url: "https://morey.tech" # the base hostname & protocol for your site
 
 twitter_username: morey_tech
 github_username: morey-tech
+linkedin_username: nicholas-morey
 
 # Build settings
 markdown: kramdown
