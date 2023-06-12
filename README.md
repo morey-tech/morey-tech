@@ -2,7 +2,8 @@
 
 ### Find me on Twitter [@morey_tech](https://twitter.com/morey_tech)!
 
-## Recent Blog Posts and more!
+## Recent Talks, Blogs, and more!
+- [Control Plane, Service, or Both? – Argo CD Multi-Cluster Architectures](https://youtu.be/vyaZv4yM3_o)
 - [Enforcing Kubernetes Best Practices using Kyverno and Argo CD](https://akuity.io/blog/argo-cd-kyverno-best-practice-policies)
 - [Sustainable GitOps with Argo CD and kube-green](https://akuity.io/blog/argo-cd-kube-green/)
 - [Argo CD Build Environment Examples](https://akuity.io/blog/argo-cd-build-environment-examples/)
