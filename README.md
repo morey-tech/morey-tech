@@ -1,6 +1,6 @@
 # Hey, I'm Nicholas Morey.
 
-### Find me on Twitter [@morey_tech](https://twitter.com/morey_tech)!
+### Find me on [LinkedIn](https://www.linkedin.com/in/nicholas-morey/)!
 
 ## Recent Talks, Blogs, and more!
 - [Control Plane, Service, or Both? – Argo CD Multi-Cluster Architectures](https://youtu.be/vyaZv4yM3_o)
