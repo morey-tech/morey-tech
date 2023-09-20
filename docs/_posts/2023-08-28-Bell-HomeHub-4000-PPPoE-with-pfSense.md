@@ -55,7 +55,7 @@ With that context, let’s move on to the step-by-step guide!
 
 The guide will cover the essentials for connecting pfSense to the Bell HomeHub 4000 (Giga Hub) for use as a WAN connection. This will not require any double-nat or a media converter. Only the Giga Hub and pfSense. I won’t cover any of the basic pfSense set up, I will assume you have gone through the initial setup, and have access to the pfSense UI (the webConfigurator).
 
-1. Ensure your Bell HomeHub 4000 (Giga Hub) is powered on, online, and properly connected to your service (i.e. the internet). While connected directly to the Giga Hub, either via the Wifi or a LAN port, navigate to https://192.168.2.1 and enter the admin credentials. If you need the password, you can get it from the front of the device using the built-in screen.
+1. Ensure your Bell HomeHub 4000 (Giga Hub) is powered on, online, and properly connected to your service (i.e. the internet). While connected directly to the Giga Hub, either via the Wifi or a LAN port, navigate to [`https://192.168.2.1`](https://192.168.2.1) and enter the admin credentials. If you need the password, you can get it from the front of the device using the built-in screen.
     
     ![bell-giga-hub-internet-up.png](/assets/images/bell-giga-hub-internet-up.png)
     
