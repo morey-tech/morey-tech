@@ -8,7 +8,7 @@ tags:
   - homelab
   - networking
 header:
-  image: /assets/images/bell-giga-hub-internet-up.png
+  image: /assets/images/bell-gigahub-blog-banner.png
 ---
 
 Bell Canada has done an impressive rollout of Fiber in most of Southeastern Ontario. After moving to Ottawa, Bell provided me with a free upgrade from the HomeHub 3000 to the Homehub 4000 (a.k.a. the Giga Hub), which comes with Wifi 6 and a 10Gbe RJ45 port.
