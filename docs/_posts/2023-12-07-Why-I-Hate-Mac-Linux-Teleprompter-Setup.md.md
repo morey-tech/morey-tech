@@ -79,7 +79,7 @@ The advantage of using Linux with my teleprompter setup is that it was a single 
 
 ## The Camera and Lighting
 
-I already had a spare [Logitech C920x webcam](https://www.amazon.ca/dp/B085TFF7M1?ref=nb_sb_ss_w_as-reorder_k0_1_3&amp=&crid=1BFG81LIHFPXV&sprefix=web&th=1) lying around, so I chose to use that. While this does work, the webcam requires plenty of light in the room to capture a good image from inside the teleprompter. This led me to upgrade from my small USB-powered lights to a pair of [NEEWER Dimmable LED Light](https://www.amazon.ca/dp/B072Q42GXQ?psc=1&ref=ppx_yo2ov_dt_b_product_details)s, providing a bright, warm light that fills the whole room.
+I already had a spare [Logitech C920x webcam](https://www.amazon.ca/dp/B085TFF7M1?ref=nb_sb_ss_w_as-reorder_k0_1_3&amp=&crid=1BFG81LIHFPXV&sprefix=web&th=1) lying around, so I chose to use that. While this does work, the webcam requires plenty of light in the room to capture a good image from inside the teleprompter. This led me to upgrade from my small USB-powered lights to a pair of [NEEWER Dimmable LED Lights](https://www.amazon.ca/dp/B072Q42GXQ?psc=1&ref=ppx_yo2ov_dt_b_product_details), providing a bright, warm light that fills the whole room.
 
 The webcam is adequate for now, but the image is not particularly sharp, and there’s no depth. I see myself upgrading to [a mirrorless Sony camera with a Sigma 16mm lens](https://sonyphotoreview.com/how-to-use-sony-a6000-as-a-webcam/) to boost the video quality of my talking-head shots.
 
