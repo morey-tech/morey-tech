@@ -18,7 +18,7 @@ I’ve spent the last year as a Developer Advocate at Akuity, where I regularly 
 
 ![Example of me looking at the screen in a video, before I had a teleprompter.](/assets/images/2023-12-03-10-14-55.png)
 
-Example of me looking at the screen in a video, before I had a teleprompter.
+> Example of me looking at the screen in a video, before I had a teleprompter.
 
 Which turns out to be a particularly challenging problem to solve. I initially thought nobody would care if I was not looking at the camera; it’s a YouTube video after all, not a conversation. But the more I looked around at other creators' videos, the more I could feel the difference.
 
@@ -46,7 +46,7 @@ I have other gripes with OSX for content creation, too, like all the hoops I’m
 
 I thought to myself, I bet I can do this on Linux with very little effort. A quick Google search confirmed as much. So, this final straw with the teleprompter pushed me back to using Linux for my desktop environment and recording videos. With Linux, I can have the level of control I need without relying on purchasing software to solve every problem.
 
-I suppose the irony is that I used a $1,500 PC I had in my closet to solve a problem that I could’ve half solved for $20.
+I suppose the irony is that I used a $1,500 PC I had in my closet to solve a problem that I could’ve solved for $20.
 
 # The Setup
 
@@ -83,23 +83,18 @@ I already had a spare [Logitech C920x webcam](https://www.amazon.ca/dp/B085TFF7M
 
 The webcam is adequate for now, but the image is not particularly sharp, and there’s no depth. I see myself upgrading to [a mirrorless Sony camera with a Sigma 16mm lens](https://sonyphotoreview.com/how-to-use-sony-a6000-as-a-webcam/) to boost the video quality of my talking-head shots.
 
-## The Final Look
-
-![Example of me reading from the teleprompter in the new setup.](/assets/images/2023-12-03-10-50-38.png)
-
-Example of me reading from the teleprompter in the new setup.
-
+# The Final Look
 I’m not 100% satisfied with the final quality of the image. The framing on the corner of my office with the door is not an ideal background. Something I wish I had considered before committing to the position of the teleprompter on my desk by zip-tying the cables into place. The simple solution is to move my desk in the room.
 
 But compared to what it was before, I love it.
 
 ![Example of me looking at the screen in a video, before I had a teleprompter.](/assets/images/2023-12-03-10-14-55.png)
 
-Example of me looking at the screen in a video, before I had a teleprompter.
+> Example of me looking at the screen in a video, before I had a teleprompter.
 
 ![Example of me reading from the teleprompter in the new setup.](/assets/images/2023-12-03-10-50-38.png)
 
-Example of me reading from the teleprompter in the new setup.
+> Example of me reading from the teleprompter in the new setup.
 
 The eye contact, at least for me, makes a noticeable difference in the level of engagement as the viewer. I tried it out during the company office hours and some impromptu huddles on Slack by putting the window on the teleprompter screen and turning to look at it when I talked or when engaged in conversation. It made me feel much more engaged in what we were discussing.
 
