@@ -116,3 +116,6 @@ analytics:
   google:
     tracking_id: "G-R3G6SFJSG5"
     anonymize_ip: false # default
+
+head_scripts:
+  /assets/js/metricool.js
