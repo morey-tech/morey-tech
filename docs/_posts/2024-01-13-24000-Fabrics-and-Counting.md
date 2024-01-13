@@ -15,8 +15,6 @@ header:
 
 On a snowy Saturday morning, I enter my office intending to test out-of-band ingress-nginx on [MicroK8s](https://microk8s.io/). I log into my desktop and open up the [MaaS](https://maas.io/) dashboard to check the network configuration of my bare-metal Kubernetes nodes. When I open the page, my Fixfox window slows to a stall with spinning icons next to the fabrics.
 
-[screenshot of firefox warning and spinning wheels, if possible]
-
 I kept refreshing the page and opening it in new tabs, but the issue persisted. I checked the subnets page to see if that would load. I was expecting to see my standard subnets, and I did, but they were accompanied by nearly a 1,000 pages of generic `fabric-xxxxx` entries, over 24,000 of them.
 
 ![2024-01-13-09-59-01.png](/assets/images/2024-01-13-09-59-01.png)
@@ -25,7 +23,7 @@ In a discord call with me, as I was tearing out my hair, was Noah, who, after so
 
 ![Xnapper-2024-01-13-14.00.31.png](/assets/images/Xnapper-2024-01-13-14.00.31.png)
 
-The thread acknowledges that it may be a bug. However, the proposed **workaround** is to **disable hardware sync** for the hosts running Kubernetes and **edit the database to remove the erroneous fabric entries**. The problem is that once hardware sync is enabled on a host, it can’t be disabled without releasing and deploying it again. Sure, you could edit the database entries for the hosts on MaaS to disable it.
+The thread acknowledges that it may be a bug. However, the proposed **workaround** is to **disable hardware sync** for the hosts running Kubernetes and **edit the database to remove the erroneous fabric entries**. The problem is that once hardware sync is enabled on a host, it can’t be disabled from the UI without releasing and deploying it again. But, you can edit the database entries for the hosts on MaaS to disable it.
 
 First, let’s connect to the `maasdb` as the `postgres` user.
 
@@ -133,6 +131,6 @@ DELETE 23899
 
 I had a few fabrics left over that I had to delete the subnet for first, but once I did and ran the DELETE statements again, my list was clear of extra fabrics. Now with the hosts reconfigured with my Ansible playbook, and the MicroK8s nodes joined together I have my cluster back. The periodic hardware sync is disabled and I have only the one intended fabric.
 
-[screenshot of fixed setup]
+![Xnapper-2024-01-13-14.55.55.png](/assets/images/2024-01-13-16-55-08.png)
 
 I am still learning how to best utilize MaaS, and sometimes I reconsider if it’s worth the added complexity. Yet, I am still using it instead of writing my own scripts to interact with the IPMI/iL02 APIs or host PXE servers. So it must be, at least for now.
