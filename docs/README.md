@@ -31,5 +31,6 @@ If you have a question about using Jekyll, start a discussion on the [Jekyll For
 Start dev container.
 
 ```
+cd docs/
 bundle exec jekyll serve
 ```
