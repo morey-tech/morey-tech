@@ -29,7 +29,7 @@ The thread acknowledges that it may be a bug. However, the proposed **workaround
 
 First, let’s connect to the `maasdb` as the `postgres` user.
 
-```jsx
+```
 sudo su postgres
 psql
 postgres-# \l
@@ -43,7 +43,7 @@ You are now connected to database "maasdb" as user "postgres".
 
 Then select the hosts by `id` and `enable_hw_sync` from the `maasserver_node` table to see what the current status is.
 
-```jsx
+```
 maasdb=# select id,enable_hw_sync from maasserver_node;
  id | enable_hw_sync 
 ----+----------------
@@ -58,7 +58,7 @@ maasdb=# select id,enable_hw_sync from maasserver_node;
 
 In my case, I want to disable hardware sync (set `enable_hw_sync` to `false`) for all of my hosts, so I used an UPDATE statement for all records in `maasserver_node`.
 
-```jsx
+```
 maasdb=# UPDATE maasserver_node SET enable_hw_sync = false;
 UPDATE 6
 maasdb=# select id,enable_hw_sync from maasserver_node;
@@ -75,7 +75,7 @@ maasdb=# select id,enable_hw_sync from maasserver_node;
 
 Turns out, there is also a systemd timer named `maas_hardware_sync` on each host to clean up. I found that out by watching the fabrics get added in real-time after I thought I had cleaned them up.
 
-```jsx
+```
 ubuntu@rubrik-c:~$ sudo systemctl list-units --type=timer maas_hardware_sync.timer
   UNIT                     LOAD   ACTIVE SUB     DESCRIPTION                                      
   maas_hardware_sync.timer loaded active waiting Timer for periodically running MAAS hardware sync
@@ -83,7 +83,7 @@ ubuntu@rubrik-c:~$ sudo systemctl list-units --type=timer maas_hardware_sync.tim
 
 On each host, disable and remove the timer.
 
-```jsx
+```
 sudo systemctl disable maas_hardware_sync.timer
 sudo systemctl stop maas_hardware_sync.timer
 sudo rm /lib/systemd/system/maas_hardware_sync.timer
@@ -95,7 +95,7 @@ In my case, these are non-production hosts, used for testing the infrastructure 
 
 Then clean up the fabrics and VLANs. Using these SQL commands, two DELETE statements intended to remove records from the `maasserver_vlan` and `maasserver_fabric` tables.
 
-```jsx
+```
 maasdb=# DELETE FROM maasserver_vlan
 	WHERE maasserver_vlan.id NOT IN (
 	    SELECT maasserver_vlan.id 
@@ -126,7 +126,7 @@ Let's break down each DELETE statement:
 
 In my case, that was `23902` VLANs and `23899` fabrics.
 
-```jsx
+```
 DELETE 23902
 DELETE 23899
 ```
