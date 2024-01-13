@@ -131,7 +131,7 @@ DELETE 23902
 DELETE 23899
 ```
 
-Now with the hosts reconfigured with my Ansible playbook, and the MicroK8s nodes joined together I have my cluster back. The periodic hardware sync is disabled and I have only the one intended fabric.
+I had a few fabrics left over that I had to delete the subnet for first, but once I did and ran the DELETE statements again, my list was clear of extra fabrics. Now with the hosts reconfigured with my Ansible playbook, and the MicroK8s nodes joined together I have my cluster back. The periodic hardware sync is disabled and I have only the one intended fabric.
 
 [screenshot of fixed setup]
 
