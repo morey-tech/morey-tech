@@ -16,10 +16,8 @@
 title: Morey Tech Limited
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
+  Nicholas Morey is a Solutions Architect and Workshop Instructor, Passionate about Kubernetes, Platform Engineering, and GitOps.
+# twitter_username: username
 github_username: morey-tech
 minimal_mistakes_skin: default
 search: true
@@ -60,7 +58,7 @@ plugins:
 author:
   name: "Nicholas Morey"
   avatar: "/assets/images/avitar.jpeg"
-  bio: "Nicholas Morey is a platform engineer passionate about Kubernetes and GitOps."
+  bio: "Nicholas Morey is a Solutions Architect and Workshop Instructor, Passionate about Kubernetes, Platform Engineering, and GitOps."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -71,6 +69,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://morey.tech"
+    - label: "Free GitOps Consultation"
+      icon: "fas fa-fw fa-link"
+      url: "https://calendly.com/morey-tech/free-gitops-consultation"
 
 footer:
   links:
