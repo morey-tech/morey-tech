@@ -13,7 +13,7 @@ header:
   image: /assets/images/Xnapper-2024-01-27-16.37.24.png
 ---
 
-[Services in Kubenetes](https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/) can be exposed via a load balancer with an external IP address when given the `type: LoadBalancer`. When using an IaaS platform (e.g. AWS, GCP, DigitalOcean, Civo), they provide the load balancer implementation, typically using a controller in the cluster that creates the resource outside of the cluster (e.g. [aws-load-balancer-controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller)).
+[Services in Kubernetes](https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/) can be exposed via a load balancer with an external IP address when given the `type: LoadBalancer`. When using an IaaS platform (e.g. AWS, GCP, DigitalOcean, Civo), they provide the load balancer implementation, typically using a controller in the cluster that creates the resource outside of the cluster (e.g. [aws-load-balancer-controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller)).
 
 However, Kubernetes does not implement network load balancers for bare-metal clusters. So you are left with "NodePort" and "externalIPs" services to route traffic into the clusters. Both of these are insufficient for production use. 
 
