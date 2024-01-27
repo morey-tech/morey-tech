@@ -15,7 +15,7 @@ header:
 
 [Services in Kubernetes](https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/) can be exposed via a load balancer with an external IP address when given the `type: LoadBalancer`. When using an IaaS platform (e.g. AWS, GCP, DigitalOcean, Civo), they provide the load balancer implementation, typically using a controller in the cluster that creates the resource outside of the cluster (e.g. [aws-load-balancer-controller](https://github.com/kubernetes-sigs/aws-load-balancer-controller)).
 
-However, Kubernetes does not implement network load balancers for bare-metal clusters. So you are left with "NodePort" and "externalIPs" services to route traffic into the clusters. Both of these are insufficient for production use. 
+However, Kubernetes does not implement network load balancers for bare-metal clusters. So you are left with "NodePort" services to route traffic into the clusters, which is insufficient for production use. 
 
 MetalLB offers a network load balancer implementation that integrates with standard network equipment (e.g. pfSense) so that external services on bare-metal clusters "just work". Combined with [pfSense](https://pfsense.org/) and [BGP](https://www.cloudflare.com/en-ca/learning/security/glossary/what-is-bgp/), it becomes like magic. Especially to me, who has a solid understanding of networking principles but not so much of complex routing.
 
