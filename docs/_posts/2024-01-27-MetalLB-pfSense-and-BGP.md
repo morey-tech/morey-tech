@@ -21,6 +21,8 @@ MetalLB offers a network load balancer implementation that integrates with stand
 
 Each time a Service is configured to receive an external IP address (external to the cluster network, not necessarily exposed to the internet) from MetalLB, it will be immediately (within milliseconds) known by pfSense and accessible to the rest of the network.
 
+![MetalLB-PfSense-BGP-diagram](/assets/images/MetalLB-PfSense-BGP-diagram.png)
+
 ## The Setup
 
 ### Prerequisites
@@ -248,8 +250,8 @@ Referencing IP addresses when trying to access services from Kubernetes is not v
 
 # References
 
-- [https://github.com/noahburrell0/k8s/blob/main/configs/setup/metallb/configs.yaml](https://github.com/noahburrell0/k8s/blob/main/configs/setup/metallb/configs.yaml)
-- [https://docs.netgate.com/tnsr/en/latest/dynamicrouting/bgp/required-info.html](https://docs.netgate.com/tnsr/en/latest/dynamicrouting/bgp/required-info.html)
-- [https://www.youtube.com/watch?v=jXG8fuJ-fUI](https://www.youtube.com/watch?v=jXG8fuJ-fUI)
-- [https://blog.perf3ct.tech/setting-up-metallb-in-bgp-mode-with-pfsense/](https://blog.perf3ct.tech/setting-up-metallb-in-bgp-mode-with-pfsense/)
-- [https://metallb.universe.tf/](https://metallb.universe.tf/)
+- [noahburrell0/k8s - configs/setup/metallb/configs.yaml](https://github.com/noahburrell0/k8s/blob/main/configs/setup/metallb/configs.yaml)
+- [docs.netgate.com - BGP Required Information](https://docs.netgate.com/tnsr/en/latest/dynamicrouting/bgp/required-info.html)
+- [Youtube - Basic BGP Configuration on pfSense ](https://www.youtube.com/watch?v=jXG8fuJ-fUI)
+- [perf3ct.tech - Setting up MetalLB in BGP mode with pfSense](https://blog.perf3ct.tech/setting-up-metallb-in-bgp-mode-with-pfsense/)
+- [MetalLB Docs](https://metallb.universe.tf/)
