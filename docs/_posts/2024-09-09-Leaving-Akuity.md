@@ -7,7 +7,7 @@ categories:
 tags:
   - career
 header:
-  # image: /assets/images/Leaving-Akuity.png
+  image: /assets/images/Leaving-Akuity.jpg
 ---
 
 # How It Started
