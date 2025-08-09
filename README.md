@@ -31,8 +31,8 @@ Check out [my PRs on the action](https://github.com/ratehub/argocd-diff-action/p
 [![cka-certified-kubernetes-administrator](https://user-images.githubusercontent.com/4213435/183928214-d775ab88-2034-47b5-beba-2ec083462629.png)](https://www.credly.com/badges/c873f78e-5c00-490a-89c4-064fd39378cf/public_url)
 
 ## Quick run-down of my professional experience:
-
-- 2022-10 - Present: Developer Advocate @ [Akuity](https://akuity.io)
+- 2024-09 - Present: Solution Architect @ [Red Hat](https://redhat.com)
+- 2022-10 - 2024-08: Developer Advocate @ [Akuity](https://akuity.io)
 - 2021-08 - 2022-09: DevOps Engineer @ [ratehub.ca](https://www.ratehub.ca/)
 - 2020-07 - 2021-08: Linux SysAdmin / DevOps Engineer @ [Empire Life Ins. Co](https://www.empire.ca/)
 - 2019-02 - 2020-07: Linux SysAdmin @ [Telecom Metric Inc.](https://telecommetric.com/)
