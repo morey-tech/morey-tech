@@ -13,7 +13,7 @@ header:
   image: /assets/images/devspace-claude-code.png
 ---
 
-I’ve been working a lot with Red Hat [OpenShift Dev Spaces](https://developers.redhat.com/products/openshift-dev-spaces) lately(the upstream project is [Eclipse Che](https://github.com/eclipse-che/che)). Many of my customers are fascinated by the idea of completely codified, self-contained development environments. They love that these environments run on their own infrastructure, giving them full control over the development domain, security permissions, and performance.
+I’ve been working a lot with Red Hat [OpenShift Dev Spaces](https://developers.redhat.com/products/openshift-dev-spaces) lately (the upstream project is [Eclipse Che](https://github.com/eclipse-che/che)). Many of my customers are fascinated by the idea of completely codified, self-contained development environments. They love that these environments run on their own infrastructure, giving them full control over the development domain, security permissions, and performance.
 
 One of the massive benefits of Dev Spaces is the ability to "codify" the entire environment—the tooling, the pre-baked commands, and the infrastructure around it.
 
