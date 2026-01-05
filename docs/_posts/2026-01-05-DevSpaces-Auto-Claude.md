@@ -73,7 +73,7 @@ There was also a cost factor. I initially started with the Claude Code Pro subsc
 
 To get the API key into the cluster securely, I used **External Secrets Operator (ESO)**.
 
-*Note: While ESO isn't strictly required, I highly recommend it. My backing store is [a cobbled-together Bitwarden solution ](https://morey.tech/technical%20blog/Bitwarden-And-External-Secrets/)(fine for my homelab), but for production, you should use HashiCorp Vault or something similar.*
+*Note: While ESO isn't strictly required, I highly recommend it. My backing store is [a cobbled-together Bitwarden solution ](./2024-03-08-Bitwarden-And-External-Secrets.md)(fine for my homelab), but for production, you should use HashiCorp Vault or something similar.*
 
 ## The Challenge: Namespaces
 

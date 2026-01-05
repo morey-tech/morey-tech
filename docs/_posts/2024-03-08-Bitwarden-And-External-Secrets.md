@@ -4,7 +4,6 @@ date: 2024-03-08 00:00:00 -0000
 excerpt_separator: "<!--more-->"
 categories:
   - Technical Blog
-  - Homelab
 tags:
   - homelab
   - kubernetes
