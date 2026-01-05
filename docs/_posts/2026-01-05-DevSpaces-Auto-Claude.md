@@ -10,14 +10,14 @@ tags:
   - claude
   - ai-assisted-coding
 header:
-  image: /assets/images/xxx.jpg
+  image: /assets/images/devspace-claude-code.png
 ---
 
-I’ve been working a lot with Red Hat [OpenShift Dev Spaces](https://developers.redhat.com/products/openshift-dev-spaces) (the upstream project is [Eclipse Che](https://github.com/eclipse-che/che)) lately. Many of my customers are fascinated by the idea of completely codified, self-contained development environments. They love that these environments run on their own infrastructure, giving them full control over the development domain, security permissions, and performance.
+I’ve been working a lot with Red Hat [OpenShift Dev Spaces](https://developers.redhat.com/products/openshift-dev-spaces) lately(the upstream project is [Eclipse Che](https://github.com/eclipse-che/che)). Many of my customers are fascinated by the idea of completely codified, self-contained development environments. They love that these environments run on their own infrastructure, giving them full control over the development domain, security permissions, and performance.
 
 One of the massive benefits of Dev Spaces is the ability to "codify" the entire environment—the tooling, the pre-baked commands, and the infrastructure around it.
 
-For example, Dev Spaces provides a simple way to automatically authenticate a developer to GitHub using a GitHub OAuth application. This means every development environment spun up is already authenticated; it has the git CLI configured, it connects to private repositories, and it can push branches and commits based on permissions defined on the GitHub side.
+For example, Dev Spaces provides a simple way to automatically authenticate a developer to GitHub using a GitHub OAuth application. This means every development environment spun up is already authenticated; it has the `git` CLI configured, it connects to private repositories, and it can push branches and commits based on permissions defined on the GitHub side.
 
 ![Demonstrating the GitHub Pull Request extension opening, clicking "Sign In," and it automatically authenticating without pasting tokens.](/assets/gifs/devspaces-gh-pr-ext-sign-in.gif)
 
