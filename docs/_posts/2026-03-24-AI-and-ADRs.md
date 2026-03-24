@@ -14,7 +14,7 @@ header:
 
 For years, I’ve always wanted to use Architecture Decision Records (ADRs) more in the crafting of my demonstrations and in my home lab. When you're operating as a platform engineer or automation engineer in the world of Kubernetes, OpenShift, and Infrastructure as Code, there are a lot of decisions that get made. Documenting the "why" behind those choices is incredibly valuable.
 
-In fact, back in July 2024, I even put the skeleton for a Markdown Architecture Decision Record (MADR) into my home lab repository. And then? I just never did anything with it.
+In fact, back in July 2024, I even put the skeleton for a [Markdown Architecture Decision Record (MADR)](https://adr.github.io/madr/) into my home lab repository. And then? I just never did anything with it.
 
 In reality, it was never feasible for me to maintain them. It was way too burdensome—just a bunch of effort to write them out, evaluate all the options, manage the superseding of old records, and document it all while trying to move fast.
 
