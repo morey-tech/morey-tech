@@ -52,7 +52,7 @@ Now, granted, mutating state outside of Git is a bit of a GitOps anti-pattern. B
 
 This also required us to practice a concept explained in the Argo CD documentation: [*leaving room for imperativeness*](https://argo-cd.readthedocs.io/en/stable/user-guide/best_practices/#leaving-room-for-imperativeness). By explicitly omitting the host domain value from the custom resource in our Git repository, we let the Job inject it later. This brilliant little trick circumvents Argo CD constantly seeing an out-of-sync diff on that resource.
 
-All of that logic, the rationale, the compromises, and the documentation that it supersedes the old Kustomize approach is completely captured in [**ADR-0022: Runtime Apps Domain Discovery for GitLab**](https://www.google.com/search?q=https://github.com/morey-tech/openshift-software-factory/blob/main/docs/decisions/0022-runtime-apps-domain-discovery-for-gitlab.md).
+All of that logic, the rationale, the compromises, and the documentation that it supersedes the old Kustomize approach is completely captured in [**ADR-0022: Runtime Apps Domain Discovery for GitLab**](https://github.com/morey-tech/openshift-software-factory/blob/main/docs/decisions/0022-runtime-apps-domain-discovery-for-gitlab.md).
 
 Since writing that ADR, I've been able to easily replicate that exact same pattern multiple times for other areas in the bootstrapping process just by pointing the AI back to it.
 
