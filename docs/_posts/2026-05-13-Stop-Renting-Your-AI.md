@@ -8,7 +8,7 @@ tags:
   - ai
   - business
 header:
-  image: /assets/images/github-adrs.png
+  image: /assets/images/stop-renting-your-ai.png
 ---
 
 Lately, I've been thinking a lot about privately hosted AI models—both large language models and smaller, purpose-built ones.
