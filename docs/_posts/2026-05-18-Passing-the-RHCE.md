@@ -19,7 +19,7 @@ Reaching this milestone has me reflecting on the journey, and specifically on ho
 
 Early in my career, I wanted so badly to complete some of the big-name certifications, like Cisco's CCNA or the Red Hat Certified System Administrator (RHCSA). They eluded me for years. I had purchased the training for the RHCSA over a decade ago and never made it to the point of doing the certification exam.
 
-In a [previous post](./2026-02-17-Passing-the-RHCSA.md), I wrote about the iterative steps I took to find a format that works well for me. For a long time, I tried different methods, like scheduling exams arbitrarily at a future date by counting back how much of a self-paced course I was going to do each month, or trying full instructor-led training.
+In a [previous post](/rants/Passing-the-RHCSA), I wrote about the iterative steps I took to find a format that works well for me. For a long time, I tried different methods, like scheduling exams arbitrarily at a future date by counting back how much of a self-paced course I was going to do each month, or trying full instructor-led training.
 
 Now, I can say that in 18 months, I've completed three certifications, which, for me, is wild. I am also planning to complete two more this year. What I want to focus on today is how the system is compounding over time.
 
