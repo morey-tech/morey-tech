@@ -1,6 +1,6 @@
 ---
 title: "Passing the RCHSA: It Took Me Years!"
-date: 2026-05-18 00:00:00 -0000
+date: 2026-02-17 00:00:00 -0000
 excerpt_separator: "<!--more-->"
 categories:
   - Rants
